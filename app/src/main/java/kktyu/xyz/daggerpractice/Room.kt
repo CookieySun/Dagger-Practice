@@ -2,9 +2,8 @@ package kktyu.xyz.daggerpractice
 
 import dagger.BindsInstance
 import dagger.Component
-import dagger.android.AndroidInjectionModule
 
-@Component/*(modules = [AndroidInjectionModule::class, RoomModule::class])*/
+@Component
 interface Room {
     @Component.Builder
     interface Builder {
